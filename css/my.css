@@ -13,6 +13,9 @@ img{
 }
 .en{
 	font-family: arial;
+	display: block;
+	padding: 5px;
+	font-size: 12px;
 }
 .btn:hover{
 	cursor: pointer;
@@ -112,8 +115,13 @@ img{
 		top: 90px;
 	}
 	.menu-logo{
-		display: inline-block;
+		/*display: inline-block;*/
+		display: block;
 		margin: 10px 15px;
+		position: fixed;
+		top: 0;
+		left: 0;		
+
 	}
 
 	.menu-box:before{
@@ -192,9 +200,16 @@ img{
 		border-top: 10px solid #eebac7;
 	}
 	.menu-logo{
-		width: 200px;
-		margin: 12px 30px 13px 30px;
-		display: inline-block;
+		width: 100px;
+		/*margin: 12px 30px 13px 30px;*/
+		/*display: inline-block;*/
+		/*position: fixed;
+		top: 0;
+		left: 50%;*/
+		/*margin-left: -50px;*/
+	}
+	.menu-logo img{
+        border-radius: 50px;
 	}
 	.login .pic,.cart .pic{
 		display: inline-block;
@@ -204,14 +219,14 @@ img{
 		vertical-align: middle;
 		position: absolute;
 		right: 65px;
-		top: -50px;
+		top: -38px;
 		font-size: 12px;
 	}
 	.cart{
 		vertical-align: top;
 		position: absolute;
 		right: -10px;
-		top: -50px;
+		top: -38px;
 		font-size: 12px;
 	}
 	.icon-box:hover span{
@@ -222,18 +237,32 @@ img{
 	}
 	nav{
 		position: absolute;
-		bottom: 7px;
+		bottom: -36px;
 		right: 20px;
+		width: 100%;
+		text-align: center;
 	} 
 	nav ul li .ch{
-		 display: none; 
+		 display: block;
+		 padding: 5px;
 	}
 	nav ul{
 		font-size: 0;
+		display: inline-block;
+		/*outline: 1px solid red;*/
 	}
+	nav ul:first-child{
+		padding-right: 100px;
+		padding-left: 140px;
+	}
+	
 	nav ul li {
 		display: inline-block;
 		padding: 0 15px;
+	}
+
+	.right-nav li:first-child {
+		padding: 0 15px 0 30px;
 	}
 	nav ul li a{
 		font-family: arial;

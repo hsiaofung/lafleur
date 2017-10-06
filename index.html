@@ -17,51 +17,71 @@
 	<!-- ==============MENU=========== -->
 	<input type="checkbox" name="" id="control-box">
 	<div class="menu-box container">
-		<div class="menu-logo">
+
+        
+		<!-- <div class="menu-logo">
 			<a href="index.html">
-				<img id="logo" src="images/logo-3@20%x.png" alt="La fleur">
+				<img id="logo" src="images/logo-3@100x100.png" alt="La fleur">
 			</a>
-		</div>
+		</div> -->
 
 		<label class="hb" for="control-box"><span></span></label>
 		<nav>
-			<ul>
+			<ul class="left-nav">				
 				<li>
-					<a href="reserve.html">
-						<span class="en">RESERVE</span>
-						 <span class="ch">線上預約</span>
+					<a href="gallery.html">
+						<span class="ch">作品集</span>
+						<span class="en">GALLERY</span>
+						 
+					</a>
+				</li>				
+				<li>
+					<a href="lesson.html">
+						<span class="ch">專業課程</span>
+						<span class="en">LESSON</span>
 					</a>
 				</li>
 				<li>
-					<a href="gallery.html">
-						<span class="en">GALLERY</span>
-						 <span class="ch">作品集</span>
+					<a href="xxx.html">
+						<span class="ch">師資介紹</span>
+						<span class="en">TEACHER</span>
+					</a>
+				</li>
+				<li>
+					<div class="menu-logo">
+						<a href="index.html">
+							<img id="logo" src="images/logo-3@100x100.png" alt="La fleur">
+						</a>
+					</div>
+				</li>	
+
+			<!-- </ul> -->
+			<!-- <ul class="right-nav">	 -->
+				<li>
+					<a href="reserve.html">
+						<span class="ch">線上預約</span>
+						<span class="en">RESERVE</span>
 					</a>
 				</li>
 				<li>
 					<a href="product.html">
+						<span class="ch">商 品</span>
 						<span class="en">PRODUCT</span>
-						 <span class="ch">產 品</span>
 					</a>
 				</li>
 				<li>
-					<a href="lesson.html">
-						<span class="en">LESSON</span>
-						<span class="ch">課 程</span>
-					</a>
-				</li>
-				<li>
-					<a href="about.html">
-						<span class="en">ABOUT</span>
+					<a href="about.html">						
 						<span class="ch">關於我們</span>
+						<span class="en">ABOUT</span>
 					</a>
 				</li>
-				<li>
+				<!-- <li>
 					<a href="contact.html">
-						<span class="en">CONTACT</span>
 						<span class="ch">聯絡我們</span>
+						<span class="en">CONTACT</span>
+						
 					</a>
-				</li>
+				</li> -->
 				<li class="smico login">
 					<div class="icon-box">
 						<div class="pic">
@@ -73,7 +93,7 @@
 				<li class="smico cart">
 					<div class="icon-box">
 						<div class="pic">
-							<img class="icon" src="images/cart_icon.png" alt="cart">
+							<img class="icon" src="images/cart-5.png" alt="cart">
 						</div>
 						<span class="en">CART</span>
 					</div>
@@ -88,13 +108,16 @@
 			<!-- 幻燈片主圖 -->
 		<div class="swiper-wrapper">
 			<div class="swiper-slide pic">
-				<img src="images/banner1.jpg" alt="banner1">
+				<img src="images/flower-1.png" alt="banner1">
 			</div>
 			<div class="swiper-slide pic">
-				<img src="images/banner2.jpg" alt="banner1">
+				<img src="images/flower_2.png" alt="banner1">
 			</div>
 			<div class="swiper-slide pic">
-				<img src="images/banner3.jpg" alt="banner1">
+				<img src="images/flower_3.png" alt="banner1">
+			</div>
+			<div class="swiper-slide pic">
+				<img src="images/flower_4.png" alt="banner1">
 			</div>
 		</div>
 		<div class="swiper-pagination"></div>
@@ -375,16 +398,36 @@
     <script src="js/swiper.min.js"></script>
     <!-- Initialize Swiper -->
     <script>
+    // var swiper = new Swiper('.swiper-container', {
+    //     pagination: '.swiper-pagination',
+    //     nextButton: '.swiper-button-next',
+    //     prevButton: '.swiper-button-prev',
+    //     paginationClickable: true,
+    //     spaceBetween: 30,
+    //     centeredSlides: true,
+    //     autoplay: 3000,
+    //     autoplayDisableOnInteraction: false
+    // });
+    
     var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        paginationClickable: true,
-        spaceBetween: 30,
-        centeredSlides: true,
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
         autoplay: 3000,
         autoplayDisableOnInteraction: false
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
     });
+
     </script>
 </body>
 </html>
