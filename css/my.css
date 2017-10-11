@@ -14,7 +14,7 @@ img{
 .en{
 	font-family: arial;
 	display: inline-block;
-	padding: 5px;
+	/*padding: 5px;*/
 	/*font-size: 12px;*/
 }
 .btn:hover{
@@ -262,7 +262,7 @@ img{
 	
 	nav ul li {
 		display: inline-block;
-		padding: 0 15px;
+		padding: 5px 15px;
 	}
 
 	.right-nav li:first-child {
@@ -644,7 +644,7 @@ h3{
 
 /*--------------------------*/
 .reserve{
-	background-image: url(../images/index_reserve1.jpg);
+	background-image: url(../images/index_sign_up_2.jpg);
 	background-position: left;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -707,7 +707,7 @@ h3{
 /* -----------課程--------------- */
 
 .lesson{
-	background-image: url('../images/index_lesson.jpg');
+	background-image: url('../images/index_lesson_pic2.jpg');
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: cover;
