@@ -331,7 +331,7 @@ img{
 	background-color:rgba(255,255,255,.5);
 	box-sizing: border-box;
 	padding: 15px 15px;
-	opacity: 0;
+	/*opacity: 0;*/
 
 }
 .lesson .text{
@@ -485,7 +485,7 @@ h3{
 	font-size: 20px;
 	padding: 0 0 20px 0;	
 }
-.design_title h2,.reserve_title,.product_title h2,.lesson_title h2,.about_title h2,.contact_title h2{
+.design_title h2,.reserve_title,.product_title h2,.lesson_title h2,.about_title h2,.contact_title h2, .teacher_title h2{
 	display: inline-block;
 }
 
@@ -613,6 +613,26 @@ h3{
 		position: absolute;
 		top: 50%;
 		right:-58%;
+	}
+	.teacher_title h2:before{
+		content: '';
+		display: block;
+		width: 150px;
+		height: 1px;
+		background-image: linear-gradient(90deg, #c8b99e 0%, #666 100%);  
+		position: absolute;
+		top: 50%;
+		left:-80%;
+	}
+	.teacher_title h2:after{
+		content: '';
+		display: block;
+		width: 150px;
+		height: 1px;
+		background-image: linear-gradient(90deg, #666 0%,#c8b99e  100%);  
+		position: absolute;
+		top: 50%;
+		right:-80%;
 	}
 }
 
@@ -750,7 +770,101 @@ h3{
 		display: inline-block;
 		margin-right:15px;
 	}
+/*======專業師資=================*/
+.teacher{
+	background: #f1e1e5;
+	text-align: center;
+	padding: 4% 0;
+}
+.teacherBg{
+	padding: 2% 0;
+	background-image: url(web/bg/striped_lens.png);
+}
 
+.teacher .pic .item{
+	float: left;
+	margin: 20px 0;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.teacher .pic{
+	/*opacity: 0;*/
+}
+.teacher .pic .img{
+	background-color: #ccc;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.teacher .pic .circle:before{
+	content: "";
+	position: absolute;
+	top: 2%;
+	right: 2%;
+	width: 100%;
+	height: 100%;
+	border:1px dotted #846444;
+	border-radius: 50% 50% 40% 60% / 50% 55% 45% 50% ;
+	animation: circle2 2s linear infinite alternate;
+	transition: 1s;
+}
+.teacher .pic .circle:after{
+	content: "";
+	position: absolute;
+	right: 1%;
+	bottom: 1%;
+	width: 100%;
+	height: 100%;
+	border:1px dotted #846444;
+	border-radius: 60% 40% 40% 60% / 50% 55% 45% 50% ;
+	animation: circle1 2s linear infinite alternate;
+	transition: 1s;
+}
+.teacher .pic .circle:nth-child(2n){
+	animation: circle1 1s linear infinite alternate;
+}
+@keyframes circle1{
+	0%{border-radius: 60% 40% 40% 60% / 50% 55% 45% 50% ;}
+	100%{border-radius: 45% 55% 55% 45% / 55% 45% 55% 40% ;}
+}
+@keyframes circle2{
+	0%{border-radius: 50% 50% 40% 60% / 50% 55% 45% 50% ;}
+	100%{border-radius: 45% 55% 45% 55% / 60% 45% 55% 40% ;}
+}
+
+.teacher .name{
+	background-color: #f9ceb0;
+	border-radius: 50%;
+	padding: 25px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+}
+.teacher .pic .item p{
+	position: absolute;
+	font-size: 14px;
+	top: 10px;
+	right: 10px;
+	margin: auto;
+}
+.teacher .pic .more{
+	text-decoration: none;
+	float: right;
+	font-size: 13px;
+	color: #888583;
+}
+
+/*桌機要顯示/手機不顯示992*/
+@media screen and (min-width: 768px){
+	.teacher .pic .item{
+		float: left;
+		margin: 20px 60px;
+		position: relative;
+		box-sizing: border-box;
+	}
+}
 
 /* =====about content====== */
 .about-contact{
