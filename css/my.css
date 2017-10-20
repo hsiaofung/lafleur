@@ -321,7 +321,7 @@ img{
 	box-sizing: border-box;
 	width: 100%;
 	padding: 15px 0;
-	opacity: 0;
+	/*opacity: 0;*/
 
 }
 .lesson_content{
@@ -392,7 +392,7 @@ img{
 	}
 	.reserve_content{
 		float: right;
-		width: 50%;
+		width: 48%;
 		padding: 4% 0;
 	}
 	.lesson_content{
@@ -634,6 +634,26 @@ h3{
 		top: 50%;
 		right:-80%;
 	}
+	.outtake_title h2:before{
+		content: '';
+		display: block;
+		width: 150px;
+		height: 1px;
+		background-image: linear-gradient(90deg, #c8b99e 0%, #666 100%);  
+		position: absolute;
+		top: 50%;
+		left:27%;
+	}
+	.outtake_title h2:after{
+		content: '';
+		display: block;
+		width: 150px;
+		height: 1px;
+		background-image: linear-gradient(90deg, #666 0%,#c8b99e  100%);  
+		position: absolute;
+		top: 50%;
+		right:27%;
+	}
 }
 
 
@@ -664,10 +684,10 @@ h3{
 
 /*--------------------------*/
 .reserve{
-	background-image: url(../images/index_sign_up_2.jpg);
+	/*background-image: url(../images/index_sign_up_8.jpg);
 	background-position: left;
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 
 }
 
@@ -686,7 +706,112 @@ h3{
 	padding: 10px 0 20px;
 	text-align: center;
 }
+/*===課程花絮===========*/
 
+.outtake{
+	background-color: #fff;
+	padding: 2% 0;
+}
+.outtake .pic{
+	/*opacity: 0;*/
+}
+.outtake .pic .item{
+	padding: 10px 10px 20px;
+	margin: 40px 20px;
+	position: relative;
+	background-color: #fff;
+	position: relative;
+	border: 12px solid #F0E0E4;	
+}
+
+.outtake .pic .item:nth-child(even){
+	margin: 20px 0 45px;
+}
+.outtake .pic .item:before{
+	content: "";
+	display: block;
+	width: 110px;
+	height: 15px;
+	background-color: rgba(157,139,130,.6);
+	position: absolute;
+	bottom: -2px;
+	left: 15px;
+	filter: blur(4px);
+	transform: skewY(-9deg);
+} 
+.outtake .pic .item:after{
+	content: "";
+	display: block;
+	width: 110px;
+	height: 10px;
+	background-color: rgba(157,139,130,.6);
+	position: absolute;
+	bottom: -2px;
+	right: 15px;
+	filter: blur(4px);
+	transform: skewY(9deg);
+} 
+.outtake .pic p{
+	text-align: center;
+	line-height: 20px;
+	font-size: 13px;
+	padding: 5px;
+	position: relative;
+}
+.outtake .pic p:before{
+	content: "";
+	display: block;
+	position: absolute;
+	background-color: #fff;
+    width: 130px;
+    height: 25px;
+    bottom: -20px;
+    left: -10px;
+}
+.outtake .pic p:after{
+	content: "";
+	display: block;
+	position: absolute;
+	background-color: #fff;
+    width: 130px;
+    height: 20px;
+    bottom: -20px;
+    right: -10px;
+    z-index: 1;
+}
+.outtake .pic img{
+	width: 100%;
+}
+.outtake .pic h5{
+	text-align: center;
+	padding: 10px 0 5px;
+	font-size: 14px;
+}
+.outtake .pic a{
+	text-decoration: none;
+	color: #846444;
+}
+.outtake .pic .more{
+	display: block;
+	position: absolute;
+	bottom: 7px;
+	right: 10px;
+	margin: auto;
+	font-size: 12px;
+	padding: 5px;
+	z-index: 3;
+}
+
+/*桌機要顯示/手機不顯示992*/
+@media screen and (min-width:768px){
+	.outtake .pic .item{
+		padding: 10px 10px 20px;
+		margin: 20px 45px 40px;
+		position: relative;
+		background-color: #fff;
+		position: relative;
+	}
+}
 /* ---------------商品------------------ */
 .product{
 	background-color: #f1e1e5;
@@ -727,7 +852,7 @@ h3{
 /* -----------課程--------------- */
 
 .lesson{
-	background-image: url('../images/index_lesson_pic3.jpg');
+	background-image: url('../images/index_lesson_pic4.jpg');
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: cover;

@@ -62,8 +62,8 @@ $(document).ready(function(){
 	$(window).scroll(function(){
 		if($(window).scrollTop()>400){
 			$('.reserve_content').css({
-				opacity:'1',
-				transition: '1.3s'
+				// opacity:'0',
+				// transition: '1.3s'
 			});
 		}
 		if($(window).scrollTop()>1500){
