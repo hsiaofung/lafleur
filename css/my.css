@@ -114,16 +114,17 @@ img{
 		left: 0;
 		top: 90px;
 	}
-	.menu-logo{
-		/*display: inline-block;*/
+	.menu-logo{		
 		display: block;
 		margin: 10px 15px;
 		position: fixed;
-		top: 0;
-		left: 0;		
+		top: -4px;
+		left: 92px;		
 
 	}
-
+    #logo{
+    	width: 80%;
+    }
 	.menu-box:before{
 		content: '';
 		display: block;
@@ -202,11 +203,7 @@ img{
 	.menu-logo{
 		width: 100px;
 		margin: 12px 30px 13px 30px;
-		display: inline-block;
-		/*position: fixed;
-		top: 0;
-		left: 50%;*/
-		/*margin-left: -50px;*/
+		display: inline-block;		
 	}
 	.menu-logo img{
         border-radius: 50px;
@@ -868,6 +865,11 @@ h3{
 	.lesson .date{
 		color: #e5004f;
 		font-size: 36px;
+	}
+	@media screen and (max-width: 767px){
+	  .lesson .date{	
+		font-size: 29px;
+	}	
 	}
 	.lesson .time{
 		display: inline-block;
