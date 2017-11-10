@@ -187,7 +187,7 @@ img{
 	.menu-box{
 		height: 100px;
 		background-color: #fff;
-		box-shadow: 0 3px 10px rgba(0, 0, 0, .1);
+		box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
 		position: fixed; 
 		top: 0;
 		right: 0;
