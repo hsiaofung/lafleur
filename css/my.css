@@ -41,6 +41,16 @@ img{
 		opacity: 0;
 		position: fixed;
 }
+/*對齊*/
+.text-left{
+	text-align: left;
+}
+.text-center{
+	text-align: center;
+}
+.text-right{
+	text-align: right;
+}
 /*====================手機NAV====================*/
 @media screen and (max-width: 870px) {
 	.menu-box{	
@@ -1614,8 +1624,7 @@ background-color: #fff;
 }
 
 .search{
-	padding: 20px;
-	text-align: center;
+	padding: 20px;	
 }
 
 .search_gal{
