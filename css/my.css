@@ -1,6 +1,7 @@
 body{
 	font-family: "微軟正黑體";
-	background-color:#FAF4F3;
+	/*background-color:#FAF4F3;*/
+	background-color:rgba(0,0,0,0.1);
 	color:#666;
 }
 a{
@@ -22,18 +23,21 @@ img{
 }
 .more:hover{
 	background-color: #fff;
-	color: #ed748e;
+	/*color: #ed748e;*/
+	color: rgba(0,0,0,.6);
 }
 .more{
 	font-family: "微軟正黑體";
 	display: inline-block;
 	text-decoration: none;
 	color: #fff;
-	background-color: #ffa8a8;
+	/*background-color: #ffa8a8;*/
+	background-color: rgba(0,0,0,.3);
 	border-radius: 10px;
 	padding: 10px 50px;
 	font-size: 14px;
-	border: 1px dashed #ed748e;
+	/*border: 1px dashed #ed748e;*/
+	border: 1px dashed rgba(0,0,0,.3);
 	text-align: center;
 	transition: all 0.3s ease-out;
 }
@@ -208,7 +212,8 @@ img{
 	.menu-box:before{
 		content: '';
 		display: block;
-		border-top: 10px solid #eebac7;
+		/*border-top: 10px solid #eebac7;*/
+		border-top: 10px solid rgba(0,0,0,.3);
 	}
 	.menu-logo{
 		width: 100px;
@@ -476,7 +481,8 @@ img{
 .design{
 	margin: auto;
 	text-align: center;
-	background-color: #f1e1e5;
+	/*background-color: #f1e1e5;*/
+	background-color: rgba(0,0,0,.2);
 }
 h2{
 	position: relative;
@@ -685,7 +691,7 @@ h3{
 	text-align: center;
 } 
 .design_more{
-	background-color: #f1e1e5;
+	/*background-color: #f1e1e5;*/
 	padding: 40px 0px 20px;
 }
 
@@ -821,7 +827,8 @@ h3{
 }
 /* ---------------商品------------------ */
 .product{
-	background-color: #f1e1e5;
+	/*background-color: #f1e1e5;*/
+	background-color: rgba(0,0,0,0.2);
 	text-align: center;
 
 }
@@ -851,7 +858,7 @@ h3{
 	font-size: 18px;
 }
 .product_more{
-	background-color: #f1e1e5;
+	/*background-color: #f1e1e5;*/	
 	padding: 40px 0px 20px;
 	margin-left: auto;
 	text-align: center;
@@ -887,13 +894,16 @@ h3{
 		font-size: 15px;
 	}
 	.lesson .sginup{
-		background-color: #fc8484;
-		border: 1px dashed #eebac7;
+		/*background-color: #fc8484;
+		border: 1px dashed #eebac7;*/
+		background-color: rgba(0,0,0,.3);
+		border: 1px dashed rgba(0,0,0,.3);
 	}
 
 	.lesson .sginup:hover {
 	    background-color: #fff;
-	    border: 1px dashed #eebac7;
+	    /*border: 1px dashed #eebac7;*/
+	    border: 1px dashed rgba(0,0,0,.3);
 	}
 	.lesson p{
 		font-size: 15px;
@@ -909,7 +919,8 @@ h3{
 	}
 /*======專業師資=================*/
 .teacher{
-	background: #f1e1e5;
+	/*background: #f1e1e5;*/
+	background: rgba(0,0,0,.2);
 	text-align: center;
 	padding: 4% 0;
 }
@@ -1022,8 +1033,8 @@ h3{
 
 .footer{
 	padding: 20px 0;
-	background-color: #eebac7;
-	
+	/*background-color: #eebac7;*/
+	background-color: rgba(0,0,0,.3);
 	position: relative;
 }
 
@@ -1038,7 +1049,8 @@ h3{
 	display:none;
 	width: 55px;
 	height: 55px;
-	background-color: #df97b4;
+	/*background-color: #df97b4;*/
+	background-color: rgba(0,0,0,.3);
 	border-radius: 50%;
 	text-align: center;
 	line-height: 55px;
@@ -1075,7 +1087,8 @@ h3{
 .txtBg{
 	width: 250px;
 	height: 100px;
-	background-color: rgba(238, 186, 199, .3);
+	/*background-color: rgba(238, 186, 199, .3);*/
+	background-color: rgba(0, 0, 0, .2);
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -1118,13 +1131,15 @@ h3{
 	font-size: 28px;
 	text-align: center;
 	padding: 25px 0px 8px 0px;
-	color: #372f2f;
+	/*color: #372f2f;*/
+	color: #fff;
 }
 .topTxt h4{
 	text-align: center;
 	font-size: 20px;
 	/* padding: 15px 0px 25px 0px; */
-	color: #372f2f;
+	/*color: #372f2f;*/
+	color: #fff;
 }
 label .latitle{
 	display: block;
