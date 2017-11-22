@@ -32,7 +32,7 @@ img{
 	text-decoration: none;
 	color: #fff;
 	/*background-color: #ffa8a8;*/
-	background-color: rgba(0,0,0,.3);
+	background-color: rgba(0,0,0,.15);
 	border-radius: 10px;
 	padding: 10px 50px;
 	font-size: 14px;
@@ -482,7 +482,7 @@ img{
 	margin: auto;
 	text-align: center;
 	/*background-color: #f1e1e5;*/
-	background-color: rgba(0,0,0,.2);
+	background-color: rgba(0,0,0,.15);
 }
 h2{
 	position: relative;
@@ -828,7 +828,7 @@ h3{
 /* ---------------商品------------------ */
 .product{
 	/*background-color: #f1e1e5;*/
-	background-color: rgba(0,0,0,0.2);
+	background-color: rgba(0,0,0,0.15);
 	text-align: center;
 
 }
@@ -1411,7 +1411,8 @@ background-color: #fff;
 	background-color: #fff;
 }
 .bg_pink{
-	background-color: #f1e1e5;
+	/*background-color: #f1e1e5;*/
+	background-color: rgba(0,0,0,0.15);
 }
 .pd_bg .item{
 	background-color: #fff;
@@ -1421,7 +1422,7 @@ background-color: #fff;
 	overflow: hidden;
 }
 .pd_bg .item:hover{
-	box-shadow:1px 1px 10px rgba(0,0,0,0.3) ;
+	box-shadow:1px 1px 10px rgba(0,0,0,0.2) ;
 }
 .pd_bg .text{
 	padding: 5px 0 20px 0;
