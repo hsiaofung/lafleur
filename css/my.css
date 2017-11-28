@@ -1017,6 +1017,7 @@ h3{
 /* =====about content====== */
 .about-contact{
 	background-color: #fff;
+	background-color: rgba(0,0,0,0.15);
 }
 
 .about .text,.contact .text {
