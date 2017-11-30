@@ -1030,7 +1030,7 @@ h3{
 /* =====about content====== */
 .about-contact{
 	background-color: #fff;
-	background-color: rgba(0,0,0,0.15);
+	/*background-color: rgba(0,0,0,0.15);*/
 }
 
 .about .text,.contact .text {
@@ -1573,7 +1573,8 @@ background-color: #fff;
 .buy .buy1{
 	text-decoration: none;
 	color: #fff;
-	background: #df507c;
+	/*background: #df507c;*/
+
 	width: 80%;
 	padding: 10px;
 	text-align: center;
@@ -1583,7 +1584,8 @@ background-color: #fff;
 	border-radius: 8px;
 }
 .buy1:hover{
-	background-color: #EB93AF;
+	/*background-color: #EB93AF;*/
+	background-color: rgba(0,0,0,0.3);
 }
 .conR{
 	margin-bottom: 80px;
