@@ -370,13 +370,13 @@ img{
 .product .item{
 	background-color: #fff;
 	margin: 10px auto;
-	border-radius: 15px;
+	/*border-radius: 15px;*/
 	overflow: hidden;
-	box-shadow:0px 0px 8px rgba(0,0,0,.2);
+	/*box-shadow:0px 0px 8px rgba(0,0,0,.2);*/
 	transition: 0.2s;
 }
 .product .item:hover{
-	box-shadow:2px 2px 8px rgba(0,0,0,.2);
+	/*box-shadow:2px 2px 8px rgba(0,0,0,.2);*/
 }
 
 .ls_mr{
@@ -568,7 +568,7 @@ h3{
 		background-image: linear-gradient(90deg, #c8b99e 0%, #666 100%);  
 		position: absolute;
 		top: 50%;
-		left:-70%;
+		left:-100%;
 	}
 	.product_title h2:after{
 		content: '';
@@ -578,7 +578,7 @@ h3{
 		background-image: linear-gradient(90deg, #666 0%,#c8b99e  100%);  
 		position: absolute;
 		top: 50%;
-		right:-70%;
+		right:-100%;
 	}
 	.lesson_title h2:before{
 		content: '';
@@ -697,6 +697,15 @@ h3{
 	transition: .5s;
 }
 .design_content .pic:hover img{
+	transform: scale(1.1);
+}
+.product_content .pic{
+	overflow: hidden;
+}
+.product_content .pic img{
+	transition: .5s;
+}
+.product_content .pic:hover img{
 	transform: scale(1.1);
 }
 .design	.item .text h4{
