@@ -244,15 +244,15 @@ img{
 	.login{
 		vertical-align: middle;
 		position: absolute;
-		right: 65px;
-		top: -38px;
+		right: 48px;
+		top: -17px;
 		font-size: 12px;
 	}
 	.cart{
 		vertical-align: top;
 		position: absolute;
 		right: -10px;
-		top: -38px;
+		top: -17px;
 		font-size: 12px;
 	}
 	.icon-box:hover span{
@@ -273,7 +273,7 @@ img{
 	nav ul li .ch{
 		 display: none;
 		 padding: 5px;
-		 color:#eebac7;
+		 color:#666;
 		 font-family: '微軟正黑體';
 	}
 	nav ul{
@@ -302,9 +302,7 @@ img{
 		padding: 5px 0;
 	}
 	nav a:hover{
-		transition: 0.5s;
-		color:#eebac7;
-		box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+		transition: 0.5s;		
 	}
 	nav a:before{
 		content: '';
@@ -312,12 +310,12 @@ img{
 		width: 0%;
 		bottom: -2px;
 		height: 4px;
-		background-color: #eebac7;
+		background-color: #777;
 		position: absolute;
 		transition: 0.5s;
 	}
 	nav ul li a:hover:before{
-		width: 100%;
+		/*width: 100%;*/
 	 }
 	nav .here:before{
 		content: '';
@@ -325,7 +323,7 @@ img{
 		width: 100%;
 		bottom: -2px;
 		height: 4px;
-		background-color: #eebac7;
+		background-color: rgba(0,0,0,0.3);
 		position: absolute;
 	}
 	.banner_in{
