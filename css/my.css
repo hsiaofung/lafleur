@@ -352,7 +352,7 @@ img{
 	text-align: center;
 	float: none;
 	width: 100%;
-	background-color:rgba(255,255,255,.5);
+	background-color:#fff;
 	box-sizing: border-box;
 	padding: 15px 15px;
 	/*opacity: 0;*/
@@ -421,9 +421,9 @@ img{
 	}
 	.lesson_content{
 		float: left;
-		width: 480px;
+		/*width: 480px;*/
 		padding: 4% 40px;
-		margin-bottom: 20px;
+		/*margin-bottom: 20px;*/
 	}
 	.about, .contact{
 		padding: 20px;
@@ -889,10 +889,10 @@ h3{
 /* -----------課程--------------- */
 
 .lesson{
-	background-image: url('../images/index_lesson_pic4.jpg');
+	/*background-image: url('../images/index_lesson_pic4.jpg');
 	background-position: top center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover;*/
 }
 .lesson .text h4{
 		font-size:24px;
